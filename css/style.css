@@ -13,11 +13,11 @@ body {
   margin: auto;
 }
 
-.header {
+.navbar {
   background-color: #fff;
 }
 
-.header-top {
+.navbar-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,9 +31,24 @@ body {
   padding-bottom: 40px;
 }
 
-.header__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .search {
