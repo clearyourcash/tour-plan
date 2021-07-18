@@ -4,8 +4,8 @@ const hotelSlider = new Swiper('.hotel-slider', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-prev',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.hotel-slider__button--next',
+    prevEl: '.hotel-slider__button--prev',
   },
   effect: "coverflow",
   keyboard: {
