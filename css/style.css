@@ -1188,6 +1188,14 @@ template {
     font-size: 30px;
     line-height: 38px;
   }
+  .reviews__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+  }
   .reviews-slider__item {
     padding: 0 30px 30px;
   }
@@ -1229,6 +1237,14 @@ template {
   }
   .subscribe {
     width: 100%;
+  }
+  .reviews__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
   }
 }
 /*# sourceMappingURL=style.css.map */
