@@ -524,7 +524,7 @@ trip - full day"
           <!-- /.footer__list -->
           <div class="footer__contact-details">
             <h3 class="footer__title footer__title--mb-3">Contact Details</h3>
-            <p class="footer__text">
+            <p class="footer__text-contacts">
               Feel free to contact us by phone, email or by our contact form
             </p>
             <ul class="footer__ul">
@@ -536,8 +536,10 @@ trip - full day"
                     class="footer__icon"
                   />
                 </div>
-                9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United
-                States
+                <span class="footer__text-contacts">
+                  9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United
+                  States
+                </span>
               </li>
               <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
@@ -547,10 +549,12 @@ trip - full day"
                     class="footer__icon"
                   />
                 </div>
-                Tel (business hours) : 269 1500 <br />
-                Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00
-                pm) <br />
-                Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+                <span class="footer__text-contacts">
+                  Tel (business hours) : 269 1500 <br />
+                  Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00
+                  pm) <br />
+                  Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</span
+                >
               </li>
               <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
@@ -560,7 +564,7 @@ trip - full day"
                     class="footer__icon"
                   />
                 </div>
-                cherly.lawson@example.com
+                <span class="footer__contact">cherly.lawson@example.com</span>
               </li>
             </ul>
           </div>
@@ -584,14 +588,24 @@ trip - full day"
                 rows="10"
                 placeholder="Message"
               ></textarea>
-              <button class="button footer__button" type="submit">Send</button>
-              <span class="footer__info">* Required Fields</span>
+              <div class="footer__bottom">
+                <button
+                  class="footer__bottom-button footer__button"
+                  type="submit"
+                >
+                  Send
+                </button>
+                <span class="footer__bottom footer__info"
+                  >* Required Fields</span
+                >
+              </div>
             </form>
           </div>
           <!-- /.footer__contact-form -->
         </div>
         <!-- /.footer-wrapper -->
       </div>
+      <!-- /.container-->
     </footer>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
