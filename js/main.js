@@ -55,18 +55,22 @@ $(document).ready(function () {
     messages: {
       name: {
         required: "Please specify your name",
-        minlength: "The name must not be shorter than 2 letters",
+        minlength: "Please enter more than 2 letters",
       },
       email: {
         required: "E-mail is required",
-        email: "Your email address must be in the format of name@domain.com",
+        email: "The format of email is name@domain.com",
     },
       phone: {
         required: "Phone is required",
       },
   },
   });
-  })
+  });
 
+  // Форма для номера телефона
+  $(document).ready(function(){
+      $('#phone').mask('+7 (999) 999-9999');
+});
 
 });
