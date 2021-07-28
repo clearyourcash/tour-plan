@@ -1783,6 +1783,11 @@ template {
   }
   .footer {
     width: 100%;
+    padding-top: 69px;
+  }
+  .footer-wrapper {
+    -ms-grid-columns: none;
+        grid-template-columns: none;
   }
   .footer__logo {
     -ms-grid-row: 1;
@@ -1838,6 +1843,10 @@ template {
   }
   .footer__item {
     font-size: 12px;
+  }
+  .footer__input, .footer__message {
+    max-width: 460px;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
