@@ -32,7 +32,8 @@
         &--visible
           display: none
 .logo
-  width: 177px
+  &__image
+    width: 190px
 
 .search
   display: flex
@@ -40,6 +41,7 @@
   overflow: hidden
   border-radius: 6px
   height: 40px
+  max-width: 380px
   &__input
     width: 350px
     height: 100%
@@ -47,6 +49,8 @@
     padding-right: 75px
     background-color: #F5FAFE
     border: none
+    font-style: normal
+    font-weight: 400
     font-size: 12px
     line-height: 15px
     color: $text-color
@@ -58,6 +62,7 @@
     height: 100%
     border: none
     background-color: $primary
+    cursor: pointer
 .user
   display: flex
   align-items: center

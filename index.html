@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="navbar navbar__mobile--fixed">
+    <header class="navbar navbar--mobile_fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="#" class="logo">
+          <a href="index.html" class="logo">
             <img
               src="img/horizontal-logo.svg"
               alt="Logo: Best Tour Plan"
@@ -255,11 +255,9 @@
               <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31616.835442665648!2d98.28058674116734!3d7.884141827803177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf7065fac1e3d7c48!2sDoubleTree%20by%20Hilton%20Phuket%20Banthai%20Resort!5e0!3m2!1sru!2sru!4v1626525431815!5m2!1sru!2sru"
-                  width="100%"
-                  height="213"
-                  style="border: 0"
                   allowfullscreen=""
                   loading="lazy"
+                  class="map__frame"
                 ></iframe>
               </div>
               <!-- /.map -->
@@ -470,8 +468,7 @@ trip - full day"
           >
             <img
               src="img/activities-4.jpg"
-              alt="Tamarind falls hiking
-trip - full day"
+              alt="Tamarind falls hiking trip - full day"
               class="card__image"
             />
             <h3 class="card__title">Tamarind falls hiking trip - full day</h3>
@@ -486,11 +483,13 @@ trip - full day"
     <footer class="footer">
       <div class="container">
         <div class="footer-wrapper">
-          <img
-            src="img/vertical-logo.svg"
-            alt="Logo: Best Tour Plan"
-            class="logo footer__logo"
-          />
+          <a href="index.html" class="footer__image">
+            <img
+              src="img/vertical-logo.svg"
+              alt="Logo: Best Tour Plan"
+              class="logo footer__logo"
+            />
+          </a>
           <div class="footer__list footer__categories">
             <h3 class="footer__title">ALL CATEGORIES</h3>
             <ul class="footer__ul">
@@ -617,11 +616,16 @@ trip - full day"
                   />
                 </div>
                 <span class="footer__text-contacts">
-                  Tel (business hours) : 269 1500 <br />
-                  Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00
-                  pm) <br />
-                  Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</span
-                >
+                  Tel (business hours) :
+                  <a href="tel:269-1500" class="footer__link">269 1500</a>
+                  <br />
+                  Tel (hotline) Monday - Saturday:
+                  <a href="tel:52-56-61-38" class="footer__link">52-56-61-38</a>
+                  (08:00 am – 20:00 pm) <br />
+                  Tel (hotline) Sunday:
+                  <a href="tel:52-56-61-38" class="footer__link">52-56-61-38</a>
+                  (08:00 am – 14:00 pm)
+                </span>
               </li>
               <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
@@ -631,7 +635,13 @@ trip - full day"
                     class="footer__icon"
                   />
                 </div>
-                <span class="footer__contact">cherly.lawson@example.com</span>
+                <span class="footer__text-contacts"
+                  ><a
+                    href="mailto:cherly.lawson@example.com"
+                    class="footer__link"
+                    >cherly.lawson@example.com</a
+                  ></span
+                >
               </li>
             </ul>
           </div>
